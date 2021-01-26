@@ -10,11 +10,11 @@ const Identification = (props) => {
     const [isRedirected, setIsRedirected] = useState(false)
    
     useEffect(()=>{
-        if(!islogged && (router.pathname !== "/" && router.pathname !== "/login" && router.pathname !== "/sign-in")){
+        if(!islogged && (router.pathname !== "/" && router.pathname !== "/login" && router.pathname !== "/sign-up")){
             router.push('/')
             setIsRedirected(true)
         }
-        else if(islogged && (router.pathname == "/" || router.pathname == "/login" && router.pathname == "/sign-in")){
+        else if(islogged && (router.pathname == "/" || router.pathname == "/login" && router.pathname == "/sign-up")){
             router.push('/profil')
         }
     }, [router.pathname])

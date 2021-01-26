@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { Form, Button, Container, Row, Col } from "../node_modules/react-bootstrap";
 
-const SignIn = () => (
+const SignUp = () => (
   <Container>
     <Row className="justify-content-center">
     <Col>
-        <h1>Sign in</h1>
+        <h1>Sign up</h1>
         <Form>
           <Form.Group controlId="formBasicUsername">
             <Form.Label>User name</Form.Label>
@@ -23,4 +23,4 @@ const SignIn = () => (
     </Row>
   </Container>
 );
-export default SignIn;
+export default SignUp;
