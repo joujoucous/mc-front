@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 ###docker use
-run : 
+Building your Docker image:
+```
+docker build -t client .
+```
+
+Deploying your Docker container : 
 ```
 docker build -t client . && docker run --name CLIENT_CONTAINER -p 0.0.0.0:5000:3000 client
 ```
