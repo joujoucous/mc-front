@@ -15,4 +15,62 @@ a {
   box-sizing: border-box;
 }
 
+<<<<<<< Updated upstream
 
+=======
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.content-center {
+  z-index: 1;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title-brand {
+  max-width: 730px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  display: block;
+}
+.presentation-title {
+  font-size: 8em;
+  font-weight: 700;
+  margin: 0;
+  color: #fff;
+  background: #fbf8ec;
+  background-image: linear-gradient(rgb(255, 255, 255) 50%, rgb(78, 103, 115));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: text;
+    background-color: initial;
+  -webkit-text-fill-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+.imageContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
+}
+.homeImage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:fit-content;
+  max-width:100%;
+  margin: 0 0 1em 0;
+  padding: 1em;
+  border: 1px solid black;
+}
+>>>>>>> Stashed changes
