@@ -29,12 +29,13 @@ h1 {
   margin-left: auto;
 }
 .title-brand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50);
   max-width: 730px;
-  margin: 0 auto;
-  position: relative;
   text-align: center;
   color: #fff;
-  display: block;
 }
 .presentation-title {
   font-size: 8em;
@@ -42,7 +43,7 @@ h1 {
   margin: 0;
   color: #fff;
   background: #fbf8ec;
-  background-image: linear-gradient(rgb(255, 255, 255) 50%, rgb(78, 103, 115));
+  background-image: linear-gradient(rgb(255, 255, 255) 25%, rgb(78, 103, 115));
     background-position-x: initial;
     background-position-y: initial;
     background-size: initial;
@@ -57,7 +58,7 @@ h1 {
 .imageContainer{
   display: flex;
   flex-direction: row;
-  justify-content: space-between
+  justify-content: space-around
 }
 .homeImage {
   display: flex;
@@ -65,7 +66,6 @@ h1 {
   align-items: center;
   width:fit-content;
   max-width:100%;
-  margin: 0 0 1em 0;
-  padding: 1em;
-  border: 1px solid black;
+  margin: 0 0 0 0;
+  padding: 0;
 }
